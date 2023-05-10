@@ -1,0 +1,52 @@
+.wrapper {
+  color: #ffffff;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 100%;
+  opacity: 0.9;
+  display: flex;
+  justify-content: end;
+  h1 {
+    display: inline;
+  }
+  @media (max-width: 600px) {
+    justify-content: center;
+  }
+  .container {
+    width: 485px;
+    border-radius: 15px;
+    background-color: #222222;
+    padding: 10px;
+    @media (max-width: 1024px) {
+      width: 360px;
+    }
+    @media (max-width: 740px) {
+      width: 310px;
+    }
+  }
+  .text {
+    text-align: justify;
+    font-size: 22px;
+    @media (max-width: 1024px) {
+      font-size: 20px;
+    }
+    @media (max-width: 740px) {
+      font-size: 18px;
+    }
+  }
+  .service {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    h3 {
+      font-weight: 400;
+      margin: 0 0 10px 10px;
+    }
+    @media (max-width: 1024px) {
+      font-size: 20px;
+    }
+    @media (max-width: 740px) {
+      font-size: 18px;
+    }
+  }
+}
